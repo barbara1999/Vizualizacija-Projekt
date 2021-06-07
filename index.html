@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel='stylesheet'>
+
+    <script src="https://d3js.org/d3.v3.min.js"></script> 
+    <script src="https://d3js.org/d3.v4.js"></script>
+    <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+    <script src="http://d3js.org/topojson.v1.min.js"></script>
+    <script src="//d3plus.org/js/d3plus.js"></script>
+    <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+
+ 
+    <link rel="stylesheet" href="style.css">
+    <title>Croatiy county</title>
+</head>
+<body>
+    <header>
+        <h1>HRVATSKE ŽUPANIJE</h1>
+    </header>
+    <div class="button-container">
+        <button id="green-btn" onClick="changeColor('#5ac18e')">Green</button>
+        <button id="red-btn" onClick="changeColor('#fa8072')">Red</button>
+    </div>
+    <div class="container">
+        <section class="community container-item">
+            <h2>Broj općina po županijama</h2>
+            <div class="community-barchart"></div>
+        </section>
+        <section class="city container-item">
+            <h2>Broj gradova po županijama</h2>
+            <div class="city-barchart"></div>
+        </section>
+    </div>
+    <div  class="container-center">
+        <section>
+            <h2>Migracije Stanovništva Hrvatske</h2>
+            <div id="migration-OBZ"></div>
+        </section>
+    </div>  
+    <section>
+        <h2>Broj stanovnika 2011.godine</h2>
+        <div class="container-cro">
+            <div  class="cro" ></div>
+            <div class="block-container">
+                <h2 id="title"></h2>
+                <div class="cro-graph"></div>
+                <h3 id="graph-title"></h3>
+            </div>
+        </div>
+    </section>
+ 
+    <section id="area">
+        <h2>Površina po županijama</h2>
+    </section>
+    
+
+    </section>
+
+    <script src="index.js"></script>
+</body>
+</html>

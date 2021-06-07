@@ -1,0 +1,155 @@
+{
+    "children":[
+        
+      {
+         "name":"Zapadna",
+         "children":[
+            {
+               "name":"Istarska",
+               "value":2813,
+               "colname":"level3"
+            },
+            {
+               "name":"Primorsko-goranska",
+               "value":3588,
+               "colname":"level3"
+            }
+         ],
+         "colname":"level2"
+      },
+      {
+          "name":"Istocna",
+          "children":[
+             {
+                "name":"Vukovarsko-srijemska",
+                "value":2454,
+                "colname":"level3"
+             },
+             
+             {
+                "name":"Pozesko-slavonska",
+                "value":1823,
+                "colname":"level3"
+             },
+
+             {
+                "name":"Brodsko-posavska",
+                "value":2030,
+                "colname":"level3"
+             } 
+             ,{
+               "name":"Viroviticko-podravska",
+               "value":2024,
+               "colname":"level3"
+             }, {
+               "name":"Osjecko-baranjska",
+               "value":4155,
+               "colname":"level3"
+            }
+          ],
+          "colname":"level2"
+       },
+      
+       
+       {
+          "name":"Sredisnja",
+          "children":[
+             {
+                "name":"Sisacko-moslavacka",
+                "value":4468,
+                "colname":"level3"
+             },
+             {
+                "name":"Karlovacka",
+                "value":3626,
+                "colname":"level3"
+             },
+             {
+                "name":"Licko-senjska",
+                "value":5353,
+                "colname":"level3"
+             }
+          ],
+          "colname":"level2"
+       },
+       {
+         "name":"Sjeverna",
+         "children":[
+            {
+               "name":"Bjelovarsko-bilogorska",
+               "value":2640,
+               "colname":"level3"
+            },
+            {
+               "name":"Koprivnicko-krizevacka",
+               "value":1748,
+               "colname":"level3"
+            },
+           
+            {
+               "name":"Zagreb",
+               "value":641,
+               "colname":"level3"
+            },
+            {
+               "name":"Krapinsko-zagorska",
+               "value":1229,
+               "colname":"level3"
+            },
+            
+              
+           {
+            "name":"Zagrebacka",
+            "value":3060,
+            "colname":"level3"
+         }
+            
+           ,
+           {
+            "name":"Medimurska",
+            "value":729,
+            "colname":"level2"
+         }
+        ,{
+            "name":"Varazdinska",
+            "value":1262,
+            "colname":"level3"
+         }
+         
+           
+         ],
+         "colname":"level2"
+      },
+       {
+         "name":"Juzna",
+         "children":[
+            {
+               "name":"Sibensko-kninska",
+               "value":2984,
+               "colname":"level3"
+            },
+         
+            {
+               "name":"Splitsko-dalmatinska",
+               "value":4540,
+               "colname":"level3"
+            }
+            ,{
+               "name":"Zadarska",
+               "value":3646,
+               "colname":"level3"
+            }
+            ,
+            {
+               "name":"Dubrovacko-neretvanska",
+               "value":1781,
+               "colname":"level3"
+            }
+         ],
+         "colname":"level2"
+      }
+      
+      
+    ],
+    "name":"CEO"
+ }
